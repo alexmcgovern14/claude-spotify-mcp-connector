@@ -20,7 +20,7 @@
 import { McpAgent } from "agents/mcp";
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
-import { OAuthProvider } from "workers-oauth-provider";
+import { OAuthProvider } from "@cloudflare/workers-oauth-provider";
 import SpotifyHandler from "./spotify-handler";
 
 // ─── Spotify API helpers ─────────────────────────────────────────────

@@ -10,7 +10,7 @@ import {
   type AuthRequest,
   OAuthHelpers,
   type OAuthHelpersPKCE,
-} from "workers-oauth-provider";
+} from "@cloudflare/workers-oauth-provider";
 
 const SPOTIFY_AUTHORIZE_URL = "https://accounts.spotify.com/authorize";
 const SPOTIFY_TOKEN_URL = "https://accounts.spotify.com/api/token";
